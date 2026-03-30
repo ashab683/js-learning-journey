@@ -1,0 +1,9 @@
+const firstName = 'akash'
+const firstName2 = 'akash'
+const lastName = 'singh'
+const userAge = '15'
+const isGraduate = false
+const hasJob = false
+const mynull = null
+const myUndefined = undefined
+const myemptystring= ''
