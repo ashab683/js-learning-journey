@@ -1,13 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>for of Vs for in loops</title>
-    <script src="script.js"></script>
-</head>
-<body style="font-family: cursive;">
-    <h1>for of Vs for in loops</h1>
-</body>
-</html>
+const container = document.querySelector(".container")
+
+for(let i = 1;i<=100;i++){
+
+    const imageContainer = document.createElement('div')
+
+imageContainer.classList.add('img-container')
+
+const newImage = document.createElement('img')
+newImage.src  = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${i}.png`
+
+
+const paragraph = document.createElement('p')
+paragraph.innerText = i
+
+
+imageContainer.append(newImage,paragraph)
+container.append(imageContainer)
+}
