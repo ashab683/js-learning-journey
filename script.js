@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arrow Function Expressions</title>
+    <title>for of Vs for in loops</title>
     <script src="script.js"></script>
 </head>
 <body style="font-family: cursive;">
-    <h1>Arrow Function Expressions</h1>
+    <h1>for of Vs for in loops</h1>
 </body>
 </html>
